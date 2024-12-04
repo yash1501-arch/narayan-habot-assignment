@@ -24,7 +24,7 @@ function Navbar() {
           </div>
           <div
             onClick={() => setNavToggle(true)}
-            className=" hidden screen-580px:flex items-center justify-center text-xl border border-nav-button-color text-nav-button-color w-8 h-8 rounded-full hover:bg-nav-button-color hover:text-white screen-420px:w-6 screen-420px:h-6 screen-420px:text-lg"
+            className=" hidden screen-580px:flex items-center justify-center text-xl text-nav-button-color w-8 h-8 hover:bg-nav-button-color hover:text-white screen-420px:w-6 screen-420px:h-6 screen-420px:text-lg"
           >
             <RxHamburgerMenu />
           </div>
@@ -38,7 +38,7 @@ function Navbar() {
           >
             <div
               onClick={() => setNavToggle(false)}
-              className=" absolute hidden screen-580px:flex items-center justify-center text-xl border border-nav-button-color text-nav-button-color w-8 h-8 rounded-full hover:bg-nav-button-color hover:text-white right-9 top-2 screen-420px:w-6 screen-420px:h-6 screen-420px:text-lg screen-420px:right-6 screen-420px:top-3 screen-340px:right-5"
+              className=" absolute hidden screen-580px:flex items-center justify-center text-xl text-nav-button-color w-8 h-8 hover:bg-nav-button-color hover:text-white right-9 top-2 screen-420px:w-6 screen-420px:h-6 screen-420px:text-lg screen-420px:right-6 screen-420px:top-3 screen-340px:right-5"
             >
               <RxCross1 />
             </div>
@@ -97,7 +97,7 @@ function Navbar() {
               </div>
             </div>
             <button
-              className=" font-inter flex items-center justify-center text-p2 font-h1 text-nav-button-color border-nav-button-color border-2 rounded-md px-8 py-2 hover:text-white hover:bg-nav-button-color transition-colors duration-200 ease-in-out screen-970px:text-p3 screen-750px:text-p4 screen-750px:px-4 screen-750px:py-1 screen-420px:text-p5"
+              className=" font-inter flex items-center justify-center text-p2 font-h1 text-nav-button-color px-8 py-2 hover:text-white hover:bg-nav-button-color transition-colors duration-200 ease-in-out screen-970px:text-p3 screen-750px:text-p4 screen-750px:px-4 screen-750px:py-1 screen-420px:text-p5"
               onClick={() => navToggleFunc("/")}
             >
               Login / Sign Up
